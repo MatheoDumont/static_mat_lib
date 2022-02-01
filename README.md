@@ -1,6 +1,6 @@
 # Static Matrix Library
 
-L'idée est d'implémenter une librairie permettant de créer des matrices de manieres statique uniquement :
+L'idée est d'implémenter une librairie permettant de créer des matrices de tailles statique uniquement :
   
 ```rust
 
