@@ -30,7 +30,7 @@ Donc dans le cas où l'on n'a pas besoin d'avoir des du genre `matrix<type, n, n
 - Implémentation difficile, besoin d'aborder différement les choses.
 - Le binary peut être bien plus lourd, car pour chaque type déclaré, il écrira toutes les fonctions avec ROW, COL spécialisés.
 - Evidemment ,aucunes actions où la taille est inconnue à la compilation ne peuvent être accomplies.
-- Comme la taille est déterminée à la compilation, on ne peut pas effectuer certaines actions comme transposer la matrice *in place*, et juste la modifié, on doit créer une nouvelle matrice.
+- Comme la taille est déterminée à la compilation, on ne peut pas effectuer certaines actions comme transposer la matrice *in place*, et juste la modifier, on doit créer une nouvelle matrice.
 
 - Rust ne fournit pas comme il appelle de *impl blanket*, de specialization des impl d'opérateurs qui sont encore unstable (RFC date de 2016!)
 donc je ne peut pas surcharger l'opérateur pour spécialiser pour des choses utiles mais pas nécessaires.
