@@ -42,7 +42,7 @@ Une spécialization permettrait de définir la surcharger de l'opérateur * pour
 
 
 ## Conclusion
-J'ai laissé tombé l'implémentation dans mon projet précédent et l'ai mis en pour y revenir un jour, si ca me prend. J'ai supprimé beaucoup de ligne pour les impl infaisables comme les 'impl blanket' ou la spesialization.
+J'ai laissé tombé l'implémentation dans mon projet précédent et l'ai mis ici pour y revenir un jour, si ca me prend. J'ai supprimé beaucoup de ligne pour les impl infaisables comme les 'impl blanket' ou la specialization.
 
 
 
